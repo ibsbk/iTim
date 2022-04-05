@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, 'sans-serif';
+    margin: 0;
+    background-color: #e0d0d0;
+}
+
+a {
+    color: black;
+}
+
+input {
+    border: 1px solid black;
+    background: rgb(250, 177, 164);
+}
+
+input[type=file]::file-selector-button {
+    border: none;
+    border-right: 1px solid black;
+    background: #a46464;
+}
+
+select {
+    border: 1px solid black;
+    background: rgb(250, 177, 164);
+}
+
+option {
+    background: rgb(250, 177, 164);
+}
+
+button {
+    border: 1px solid black;
+    background: rgb(250, 177, 164);
+}
+
+textarea {
+    border: 1px solid black;
+    background: rgb(250, 177, 164);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 10vh;
+    background-color: #a46464;
+}
+
+.big-text {
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right-side a {
+    color: #000;
+    margin: 0 10px;
+}
+
+.content-wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.error {
+    color: red;
+}
+
+.form-item {
+    margin-top: 15px;
+}
+
+.films {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 70%;
+}
+
+.film {
+    width: 150px;
+    height: 300px;
+    padding: 20px 30px;
+}
+
+.film-image {
+    object-fit: cover;
+}
+
+.hidden {
+    display: none;
+}
+
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.pagination li {
+    margin: 0 10px;
+    color: #000;
+}
+
+li::marker {
+    content: '';
+}
+
+.film-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.film-left-side {
+    margin-right: 35px;
+}
+
+.film-right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    resize: none;
+}
+
+.comment-item {
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(250, 177, 164);
+}
+
+.genre-link {
+    margin: 0 10px;
+}
+
+.little-margin {
+    margin: 10px;
+}
